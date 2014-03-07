@@ -1316,142 +1316,142 @@ the filename is concatenated with that."
 (defcustom creole-css-color-type "#000000"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-default "#000000"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-whitespace-empty "#b22222"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-regexp-grouping-construct "#000000"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-builtin "#483d8b"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-function-name "#0000ff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-doc "#8b2252"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-string "#8b2252"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-variable-name "#a0522d"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-constant "#008b8b"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-keyword "#a020f0"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-comment "#b22222"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-whitespace-space "#d3d3d3"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-color-comment-delimiter "#b22222"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-default "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-whitespace-empty "#ffff00"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-regexp-grouping-construct "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-regexp-grouping-backslash "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-builtin "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-function-name "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-doc "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-string "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-variable-name "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-constant "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-keyword "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-comment "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-whitespace-space "#ffffe0"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defcustom creole-css-background-comment-delimiter "#ffffff"
   "A custom color to be used for CSS style rendering."
   :group 'creole
-  :type '(string))
+  :type '(color))
 
 (defun creole-css-list-to-style-decl (css-list)
   "Make the CSS-LIST into an HTML STYLE decl.
